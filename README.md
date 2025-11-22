@@ -15,7 +15,8 @@
 
 4. Далее запустил контейнер `docker run -p 1234:1234 my-image`
    
-   <img width="928" height="523" alt="image" src="https://github.com/user-attachments/assets/c3ab517b-15d0-4a8b-af61-5ec18fee32d3" />
+   ![Uploading image.png…]()
+
 
 5. При переходе по ссылке `http://localhost:1234/`:
 
