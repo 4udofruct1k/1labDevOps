@@ -6,8 +6,9 @@
 
    
 
-2. В этой же папке создал Dockerfile. Учтен проброс порта 1234. 
-   <img width="516" height="355" alt="image" src="https://github.com/user-attachments/assets/64a705e2-50f6-4a43-b506-eef9c975b944" />
+2. В этой же папке создал Dockerfile. Учел проброс порта 1234. 
+   <img width="1280" height="248" alt="image" src="https://github.com/user-attachments/assets/6fa58066-a5db-490a-b207-2172a873d89d" />
+
    
 
 3. В Docker Desktop собрал образ с помощью `docker build -t my-image .`
