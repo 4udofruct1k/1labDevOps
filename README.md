@@ -2,44 +2,47 @@
 
 ### Ход работы:
 1. Установил Docker Desktop. Создал папку lab1. В нее поместил файлы app.py и requirements.txt с GitHub.
+2. 
    <img width="1280" height="914" alt="image" src="https://github.com/user-attachments/assets/98bf698d-8ff9-45ed-959a-c9634a43cf05" />
 
    
 
-2. В этой же папке создал Dockerfile. Учтен проброс порта 1234.
+3. В этой же папке создал Dockerfile. Учтен проброс порта 1234.
+4. 
    <img width="516" height="355" alt="image" src="https://github.com/user-attachments/assets/64a705e2-50f6-4a43-b506-eef9c975b944" />
    
 
-3. В Docker Desktop собрал образ с помощью `docker build -t my-image .`
+5. В Docker Desktop собрал образ с помощью `docker build -t my-image .`
+6. 
    <img width="1052" height="91" alt="image" src="https://github.com/user-attachments/assets/afd63830-5cae-47f5-8017-76177de51d9a" />
 
    
 
-5. Далее запустил контейнер `docker run -p 1234:1234 my-image`
+7. Далее запустил контейнер `docker run -p 1234:1234 my-image`
    
    <img width="989" height="266" alt="image" src="https://github.com/user-attachments/assets/71f78941-1232-42bf-9b32-f169cf244ad3" />
 
 
-6. При переходе по ссылке `http://localhost:1234/`:
+8. При переходе по ссылке `http://localhost:1234/`:
 
    <img width="928" height="523" alt="image" src="https://github.com/user-attachments/assets/b473faee-7637-4a0d-af68-9df61ce3e8da" />
 
-7. Далее создан файл docker-compose.yml:
+9. Далее создан файл docker-compose.yml:
 
    <img width="555" height="918" alt="image" src="https://github.com/user-attachments/assets/24bd2b1f-e697-41d9-b56a-6108fcf49ca3" />
 
 
-8. Пересобрал образ:
+10. Пересобрал образ:
 
    <img width="975" height="334" alt="image" src="https://github.com/user-attachments/assets/43a60760-9927-4725-9941-26e67f4e6c1d" />
 
   
-9. Запустил стек с помощью команды `docker compose up`.
+11. Запустил стек с помощью команды `docker compose up`.
 
    <img width="974" height="328" alt="image" src="https://github.com/user-attachments/assets/1554e79c-0e5b-4f2e-ad11-99b2169fca03" />
    <img width="980" height="306" alt="image" src="https://github.com/user-attachments/assets/39086fe4-fa70-4dc2-a3b3-b75cbc217ce4" />
 
-10. Теперь, при переходе по ссылке `http://localhost:1234/` можно увидеть:
+11. Теперь, при переходе по ссылке `http://localhost:1234/` можно увидеть:
 
    <img width="593" height="218" alt="image" src="https://github.com/user-attachments/assets/51b9fda8-9a3d-48f3-8f56-080fae74ea10" />
 
